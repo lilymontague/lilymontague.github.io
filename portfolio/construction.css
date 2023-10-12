@@ -1,0 +1,6 @@
+.cursor{
+        cursor: url(construction/constructionCursor.png), auto;
+        width:100%;
+        height:auto;
+        position:absolute;
+}

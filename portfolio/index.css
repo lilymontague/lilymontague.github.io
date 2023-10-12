@@ -1,0 +1,83 @@
+div{
+    margin: 6%;
+}
+
+.musicCursor {
+    cursor: url(index/musicCursor.png), auto;
+    width: 50%;
+    float:left;
+    height: auto;
+}
+
+.designCursor {
+    cursor: url(index/designCursor.png), auto;
+    width: 50%;
+    float: right;
+    height: auto;
+}
+
+.main{
+    position:absolute;
+float:top;
+    left: 0%;
+    width:100vw;
+    height:50vh;
+    display: none;
+}
+
+.main2{
+    position:absolute;
+    top:50%;
+    left: 0%;
+    width:100vw;
+    height:50vh;
+    display:none;
+}
+
+.ball{
+    position: absolute;
+    height: 80px;
+    width: 80px;
+    left:50%;
+    top:30%;
+    border-radius:50%;
+    display: none;
+}
+
+.ball2{
+    position: absolute;
+    height: 87px;
+    width: 87px;
+    left:20%;
+    top:10%;
+    border-radius:50%;
+    display:none;
+}
+
+/* overriding code that makes them go above and below each other if width is<760 */
+@media (max-width:760px){ 
+    .musicCursor {
+        height: 50%;
+        float:bottom;
+        width: 100%;   
+        cursor: pointer;     
+    }
+    .designCursor{
+        height: 50%;
+        float: top;
+        width: 100%;
+        cursor: pointer;
+    }
+    .ball{
+        display:block;
+    }
+    .ball2{
+        display:block;
+    }
+    .main{
+        display: block;
+    }
+    .main2{
+        display: block;
+    }
+    } 

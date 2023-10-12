@@ -1,0 +1,44 @@
+*
+{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.main{
+    position:absolute;
+    top: 0%;
+    left: 0%;
+    /* transform:translxate(-50%,-50%); */
+    width:100vw;
+    height:50vh;
+    /* border: 2px solid gray; */
+}
+
+.main2{
+    position:absolute;
+    top:50%;
+    left: 0%;
+    /* transform:translate(-50%,-50%); */
+    width:100vw;
+    height:50vh;
+    /* border: 2px solid black; */
+}
+
+.ball{
+    position: absolute;
+    height: 80px;
+    width: 80px;
+    left:50%;
+    top:30%;
+    border-radius:50%;
+}
+
+.ball2{
+    position: absolute;
+    height: 87px;
+    width: 87px;
+    left:20%;
+    top:10%;
+    border-radius:50%;
+}
