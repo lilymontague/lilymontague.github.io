@@ -1,0 +1,97 @@
+header{
+    font-size: 10vw;
+    position: absolute;
+    display: block;
+    padding: 1em;
+    text-align: left;
+}
+
+.headerOrange{
+  color: #ff5100;
+  font-size: 7vw;
+  position: absolute;
+  display: block;
+  padding: 1em;
+  text-align: left;
+}
+
+.text{
+    display: block; 
+    padding: 1em;
+    font-size: 3vw;
+}
+
+.centre{
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.white{
+  background-color: #f1f1f1;
+  padding: 5%;
+  margin-top: 2vw;
+  margin-bottom: 2vw;
+} 
+
+.white2{
+  column-count: 2;
+  background-color: #f1f1f1;
+  padding: 5%;
+  margin-top: 2vw;
+  margin-bottom: 2vw;
+} 
+
+.white3{
+  column-count: 3;
+  background-color: #f1f1f1;
+  padding: 5%;
+  margin-top: 2vw;
+  margin-bottom: 2vw;
+} 
+
+.orange{
+  background-color: #ff5100;
+  padding: 5%;
+  margin-top: 2vw;
+  margin-bottom: 2vw;
+}
+
+.orange2{
+  column-count: 2;
+  background-color: #ff5100;
+  padding: 5%;
+  margin-top: 2vw;
+  margin-bottom: 2vw;
+}
+
+.orange3{
+  column-count: 3;
+  background-color: #ff5100;
+  padding: 5%;
+  margin-top: 2vw;
+  margin-bottom: 2vw;
+}
+
+.workin{
+  color: #008693;
+  position: relative;
+  margin-top: 10vw;
+}
+
+a, a:hover, a:focus, a:active {
+  text-decoration: none;
+  color: inherit;
+}
+
+.hover:hover{
+  color: #008693;
+}
+
+footer{
+  float:left;
+  padding: 1vw;
+  font-size: 2vw;
+
+}

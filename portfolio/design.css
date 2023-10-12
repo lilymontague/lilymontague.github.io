@@ -1,0 +1,64 @@
+.centre{
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.txt{
+    color: #ff5100;
+    text-decoration: none;
+}
+
+body{
+    background-position: center center; 
+    background-size: cover;
+
+}
+
+figcaption { 
+    font-size: 9vw;
+    position: absolute;
+    display: block;
+}
+
+.orange{
+    background-color: #ff5100;
+    padding: 5%;
+    margin-top: 4vw;
+    margin-bottom: 4vw;
+}
+
+.white{
+    background-color: #f1f1f1;
+    padding: 5%;
+    margin-top: 4vw;
+    margin-bottom: 4vw;
+}
+
+aside, figcaption{
+    position: relative;
+    /* this next line is the one effecting the coverage but how else do I
+    float the text that way? */
+    float: left;
+}
+
+footer{
+    float:left;
+    padding: 1vw;
+    font-size: 2vw;
+
+}
+
+a, a:hover, a:focus, a:active {
+    text-decoration: none;
+    color: inherit;
+}
+
+.hover:hover{
+    color: #008693;
+}
+
+/* .title{
+    color: #008693;
+} */
