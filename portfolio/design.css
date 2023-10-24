@@ -25,15 +25,18 @@ figcaption {
 .orange{
     background-color: #ff5100;
     padding: 5%;
-    margin-top: 4vw;
-    margin-bottom: 4vw;
+    margin-top: 3vw;
+    margin-bottom: 3vw;
+    width: 100vw;
 }
 
 .white{
     background-color: #f1f1f1;
     padding: 5%;
-    margin-top: 4vw;
-    margin-bottom: 4vw;
+    margin-top: 3vw;
+    margin-bottom: 3vw;
+    width: 100vw;
+
 }
 
 aside, figcaption{
@@ -59,6 +62,7 @@ a, a:hover, a:focus, a:active {
     color: #008693;
 }
 
-/* .title{
-    color: #008693;
-} */
+.title{
+    /* color: #008693; */
+    font-size:9vw;
+}
